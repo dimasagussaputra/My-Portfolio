@@ -54,7 +54,7 @@ Response:
 {
     "message": "Data sepatu berhasil ditambahkan.",
     "sepatu": {
-        "id": "382afb38-64da-458a-ad29-eb761b64429c",
+        "id": "afd5c13b-f998-4e0d-a764-a6fb03e58117",
         "nama": "Adidas Superstar White",
         "status": "Sedang Dicuci",
         "tanggalMasuk": "2025-10-16",
@@ -77,7 +77,7 @@ Response:
 ```
 [
     {
-        "id": "382afb38-64da-458a-ad29-eb761b64429c",
+        "id": "afd5c13b-f998-4e0d-a764-a6fb03e58117",
         "nama": "Adidas Superstar White",
         "status": "Sedang Dicuci",
         "tanggalMasuk": "2025-10-16",
@@ -99,7 +99,7 @@ Response:
 {
     "message": "Status sepatu berhasil diperbarui.",
     "updated": {
-        "id": "382afb38-64da-458a-ad29-eb761b64429c",
+        "id": "afd5c13b-f998-4e0d-a764-a6fb03e58117",
         "nama": "Adidas Superstar White",
         "status": "Selesai",
         "tanggalMasuk": "2025-10-16",
@@ -113,7 +113,7 @@ Response:
 ```
 [
     {
-        "id": "382afb38-64da-458a-ad29-eb761b64429c",
+        "id": "afd5c13b-f998-4e0d-a764-a6fb03e58117",
         "nama": "Adidas Superstar White",
         "status": "Selesai",
         "tanggalMasuk": "2025-10-16",
@@ -379,7 +379,7 @@ Response:
 25. Saatnya pengujian POST api/items. Disini kita perlu memasukkan source code-nya lalu masukkan dalam body raw JSON.
     ```
     {
-    "nama": "Nike Air Force 1",
+    "nama": "Nike Air Max",
     "status": "Sedang Dicuci",
     "tanggalMasuk": "2025-10-16",
     "tanggalSelesai": "-"
@@ -390,8 +390,8 @@ Response:
     {
         "message": "Data sepatu berhasil ditambahkan.",
         "sepatu": {
-            "id": "2bd2e0f3-fe89-4a95-9a52-ccef0fc38fe4",
-            "nama": "Nike Air Force 1",
+            "id": "276f4d5d-45be-4e37-934c-9580bfc780dd",
+            "nama": "Nike Air Max",
             "status": "Sedang Dicuci",
             "tanggalMasuk": "2025-10-16",
             "tanggalSelesai": "-"
@@ -401,7 +401,7 @@ Response:
 26. Selanjutnya pengujian GET api/items. Disini kita perlu memasukkan source code-nya lalu masukkan dalam body raw JSON.
     ```
     {
-    "nama": "Nike Air Force 1",
+    "nama": "Nike Air Max",
     "status": "Sedang Dicuci",
     "tanggalMasuk": "2025-10-16",
     "tanggalSelesai": "-"
@@ -411,8 +411,8 @@ Response:
     ```
     [
         {
-            "id": "2bd2e0f3-fe89-4a95-9a52-ccef0fc38fe4",
-            "nama": "Nike Air Force 1",
+            "id": "276f4d5d-45be-4e37-934c-9580bfc780dd",
+            "nama": "Nike Air Max",
             "status": "Sedang Dicuci",
             "tanggalMasuk": "2025-10-16",
             "tanggalSelesai": "-"
@@ -431,8 +431,8 @@ Response:
     {
         "message": "Status sepatu berhasil diperbarui.",
         "updated": {
-            "id": "2bd2e0f3-fe89-4a95-9a52-ccef0fc38fe4",
-            "nama": "Nike Air Force 1",
+            "id": "276f4d5d-45be-4e37-934c-9580bfc780dd",
+            "nama": "Nike Air Max",
             "status": "Selesai",
             "tanggalMasuk": "2025-10-16",
             "tanggalSelesai": "2025-10-18"
@@ -443,8 +443,8 @@ Response:
     ```
     [
         {
-            "id": "2bd2e0f3-fe89-4a95-9a52-ccef0fc38fe4",
-            "nama": "Nike Air Force 1",
+            "id": "276f4d5d-45be-4e37-934c-9580bfc780dd",
+            "nama": "Nike Air Max",
             "status": "Selesai",
             "tanggalMasuk": "2025-10-16",
             "tanggalSelesai": "2025-10-18"
