@@ -54,7 +54,7 @@ Response:
 {
     "message": "Data sepatu berhasil ditambahkan.",
     "sepatu": {
-        "id": "168963d3-10a9-4928-874d-bd77f487bd2e",
+        "id": "382afb38-64da-458a-ad29-eb761b64429c",
         "nama": "Adidas Superstar White",
         "status": "Sedang Dicuci",
         "tanggalMasuk": "2025-10-16",
@@ -77,7 +77,7 @@ Response:
 ```
 [
     {
-        "id": "168963d3-10a9-4928-874d-bd77f487bd2e",
+        "id": "382afb38-64da-458a-ad29-eb761b64429c",
         "nama": "Adidas Superstar White",
         "status": "Sedang Dicuci",
         "tanggalMasuk": "2025-10-16",
@@ -99,7 +99,7 @@ Response:
 {
     "message": "Status sepatu berhasil diperbarui.",
     "updated": {
-        "id": "168963d3-10a9-4928-874d-bd77f487bd2e",
+        "id": "382afb38-64da-458a-ad29-eb761b64429c",
         "nama": "Adidas Superstar White",
         "status": "Selesai",
         "tanggalMasuk": "2025-10-16",
@@ -113,7 +113,7 @@ Response:
 ```
 [
     {
-        "id": "168963d3-10a9-4928-874d-bd77f487bd2e",
+        "id": "382afb38-64da-458a-ad29-eb761b64429c",
         "nama": "Adidas Superstar White",
         "status": "Selesai",
         "tanggalMasuk": "2025-10-16",
@@ -470,11 +470,11 @@ Response:
 33. Selanjutnya, pada bagian Environment Variables, tambahkan kredensial Supabase dengan membuat variabel SUPABASE_URL berisi Project URL dan variabel SUPABASE_KEY berisi anon key, lalu klik Add untuk menyimpan.
 34. klik "Deploy" setelah menambahkan variabel lingkungan, lalu tunggu proses build berjalan hingga selesai dengan log yang dapat dipantau secara real-time.
 35. Kemudian, setelah deployment berhasil, Vercel akan menampilkan URL publik yang bisa diakses melalui tombol "Visit".
-36. Terakhir, lakukan verifikasi API dengan menguji endpoint melalui browser atau Postman menggunakan URL publik yang diberikan untuk memastikan API berjalan dengan benar dan menampilkan data JSON dari Supabase.
+36. Terakhir, lakukan verifikasi API dengan menguji endpoint melalui browser atau Postman menggunakan URL publik yang diberikan, misalnya https://daftar-barang-cuci-sepatu-2lar-284lqek3b.vercel.app/api/items untuk memastikan API berjalan dengan benar dan menampilkan data JSON dari Supabase.
 
 ## Link deploy (Vercel)
 
-https
+https://daftar-barang-cuci-sepatu-2lar-284lqek3b.vercel.app/api/items
 
 ## Hasil Akhir
 
