@@ -127,7 +127,7 @@ DELETE /api/items/:id
 ```
 {
   "status": "Selesai",
-  "tanggalselesai": "2025-10-18"
+  "tanggalSelesai": "2025-10-18"
 }
 ```
 Response:
@@ -455,7 +455,7 @@ Response:
     ```
     {
       "status": "Selesai",
-      "tanggalselesai": "2025-10-18"
+      "tanggalSelesai": "2025-10-18"
     }
     ```
     Maka akan ada body respond dibawahnya jika berhasil.
